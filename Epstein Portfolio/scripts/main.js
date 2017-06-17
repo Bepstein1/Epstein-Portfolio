@@ -1,0 +1,5 @@
+﻿var form = document.querySelector('form');
+var fname = document.getElementById('fname');
+var lname = document.getElementById('lname');
+var submit = document.getElementById('submit');
+var para = document.querySelector('p');

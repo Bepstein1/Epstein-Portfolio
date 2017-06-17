@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+	<script>
+		function myFunction() {
+   		 document.getElementById("demo").innerHTML = "HEY What's UP!" ;
+		}
+	</script>
+	<style>
+	p {
+		  border: 1px solid black;
+    		outline: 5px red;
+	}
+	ul#nav li a {
+		display: inline;
+		float: left;
+		padding: 8px 5px 3px 5px;
+		margin-right: 5px;
+		background-color: #034a7f; }
+	ul#nav li a {
+		display: inline;
+		float: left;
+		padding: 8px 5px 3px 5px;
+		margin-right: 5px;
+		background-color: #034a7f;
+		color: #fff;
+		font-weight: bold;
+		text-decoration: none; }
+	</style>
+	<ul id="nav">
+		<li><a href="../index.html">Home</a> 
+		<li><a href="about.html">About</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	<title> Contact Me </title>
+	</head>
+	
+	</ul>
+	<body>
+	<form action="http://www.brandonepstein.com/contact.php" method="post">
+		<p> Send us your Email Address:
+			<input type="email" name="email" </p>
+			<input type="submit" value="Submit" /> 
+		<div>
+		<p2> We will get back to you soon! </p2>
+		</div>
+		<p id="demo">Click Me!</p>
+		<button type="button" onclick="myFunction()">Try it</button>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
